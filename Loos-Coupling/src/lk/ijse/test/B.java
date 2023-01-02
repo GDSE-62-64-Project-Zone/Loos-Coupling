@@ -7,8 +7,12 @@ public class B {
         A a = new A();
         a.getA();
 
-        // So what is loos coupling.?
 
+        //Loos Coupling (Runtime Polymorphism)
+        SuperA aa= new A();
+        aa.getA();
+
+        // So what is loos coupling.?
 
     }
 
